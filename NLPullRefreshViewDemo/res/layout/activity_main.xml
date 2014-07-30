@@ -1,0 +1,17 @@
+
+    <com.nono.nlpullrefreshviewdemo.NLPullRefreshView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/refresh_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <ListView
+            android:id="@+id/lottery_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:scrollingCache="false" >
+        </ListView>
+    </com.nono.nlpullrefreshviewdemo.NLPullRefreshView>
+
